@@ -9,6 +9,7 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - If the newest day is quiet, pick something from "Story so far" that hasn't been posted yet.
 - Don't repeat a hook that has already been posted (see "Hooks used").
 - Don't invent numbers, dates or claims that aren't written here. Sim results are sim results, not flights.
+- If a day has a **Media** list, attach that photo or video to the post about it (download the linked file). Media is optional: a text-only post is fine.
 
 ---
 
