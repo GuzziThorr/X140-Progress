@@ -13,6 +13,30 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 19 Nov 2026
+
+**Milestones**
+- Simulation: a full flight in the sim using the new thrust schedule. The lift rotors spin up first, then the jets and nozzles take over, and once on the wing the nozzles hold still while the control surfaces do the steering. It finishes with an orderly return and landing. All of these are sim results, not real flights.
+- Hover rig: the spine-frame hover rig design is complete in CAD, with the final vectoring nozzles, the fuel system and the wiring all mounted on the spine. Every check passed and every printed part fits on the printer bed.
+- Balance: the aircraft's balance point now sits right on the line of jet thrust, with fuel tanks full or empty. We got there by moving the electronics lower in the airframe, not by asking the controller to compensate.
+- Jet intake: a simple rectangular ramp intake under the belly, sized to feed both jets and the extra air the exhaust mixers draw in.
+- Flight software: simulated engine controllers now let the flight computer's real jet-start routine be tested in the sim, and the flight computer firmware now builds from the same source the sim flies.
+- Also in progress: the vectoring nozzle as its own sub-assembly in CAD, and a new project website.
+
+**What's next**
+- Tune the approach and landing in the sim, and keep looping the full flight until it's consistently stable.
+- Finish the vectoring nozzle sub-assembly and drop it into the main CAD assembly.
+- Move from the hover rig design toward printing and building it.
+
+**Tweet hooks**
+- "New flight plan in the sim: rotors lift first, jets take over, and once it's on the wing the nozzles hold still and the control surfaces fly it."
+- "Balance it in the design, not in the software. The X140's centre of mass now sits right on its thrust line, full tank or empty."
+- "The hover rig is designed: one carbon spine carrying the jets, nozzles, fuel and wiring. Every printed part fits on the printer bed."
+- "Out with the triangle, in with the rectangle: a simple ramp intake sized to feed both jets and the air their mixers pull in."
+- "Before the real jets run, the flight computer gets to start simulated ones. Same routine, no fuel burned."
+
+---
+
 ## 18 Nov 2026
 
 **Milestones**
