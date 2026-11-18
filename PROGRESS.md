@@ -24,6 +24,11 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Structure: the full concept C airframe structure is being built stage by stage in CAD.
 - Exhaust mixer: a lobed mixer that replaces the stock jet exhaust cone is going to a test print to check the fit.
 
+**Design review: what we learned**
+- We put the X140 airframe through an honest review, comparing our early sizing estimates against CFD and full simulated flights. They didn't agree, and the CFD and sim results came out well short of the early promises.
+- Three lessons: the airframe can't cruise efficiently enough, the jets are sized for hovering rather than for cruise, and our different models never agreed with each other.
+- The conclusion is to move on from this airframe, and to take the best of it with us: the CFD pipeline, the flight simulator setup, the jet bench testing, our library of purchased parts, and the 3D-printed build process.
+
 **What's next**
 - Get the hover rig hovering and moving steadily, then add the wings, then transition to wing flight and back.
 - Finish the mixer fit check and the nozzle assembly in CAD.
@@ -34,6 +39,8 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - "Before the jets ever light, every surface and nozzle gets a full sweep. One button."
 - "First run of our ground station against the real flight software: five bugs found, five fixed. That's what first runs are for."
 - "Printing a lobed exhaust mixer to check the fit before we commit to the real thing."
+- "We ran the numbers properly, and the airframe didn't make the cut. That's what reviews are for. Keeping the tools, the test data and the build process."
+- "Early estimates are optimists. CFD and simulated flights are realists. Lesson learned on the X140."
 
 ---
 
