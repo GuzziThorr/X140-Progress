@@ -41,6 +41,10 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - "Printing a lobed exhaust mixer to check the fit before we commit to the real thing."
 - "We ran the numbers properly, and the airframe didn't make the cut. That's what reviews are for. Keeping the tools, the test data and the build process."
 - "Early estimates are optimists. CFD and simulated flights are realists. Lesson learned on the X140."
+- "X140 exploring air entrainment: a printed lobed mixer in place of the stock exhaust cone. Fit check first, then the thrust stand."
+
+**Media**
+- Photo: X140 exploring air entrainment into its design. The printed lobed mixer fitted to the jet, with the stock exhaust cone it replaces beside it. (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-18/x140-exploring-air-entrainment-into-its-design-pri.jpg)
 
 ---
 
