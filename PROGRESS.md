@@ -13,6 +13,22 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 22 Nov 2026
+
+**Milestones**
+- Simulation: the flight computer's own jet-handling routine now runs inside the full flight simulator. On arming it starts the left jet, then the right, talks to simulated engine controllers, and reports when both are ready. If an engine is put out in the sim, the routine picks up the flameout on its own. This is a sim result, not a real engine run.
+- The new mode is switched off by default, so the existing sim flights run exactly as before until we turn it on.
+
+**What's next**
+- Fly a complete sim flight with the jet routine switched on, with takeoff waiting until both jets report ready.
+
+**Tweet hooks**
+- "The flight computer now starts its jets in the sim: left, then right, then a 'jets ready' call, all from the same routine the real hardware will run."
+- "Flameout drill, simulated: put an engine out in the sim and the flight computer's jet routine notices by itself."
+- "Same software, simulated engines: one more piece of the real flight computer now gets exercised before any fuel is burned."
+
+---
+
 ## 19 Nov 2026
 
 **Milestones**
