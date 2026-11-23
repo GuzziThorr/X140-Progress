@@ -17,13 +17,18 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 **Milestones**
 - Bench day: tidying the wiring and cleaning up the harness that connects the jets to the flight computer, with both jets set up on the test stand.
+- The jet bench dashboard gained a control tab: timed engine runs, preflight checks, engine settings and load-cell calibration all from one screen.
 
 **Tweet hooks**
 - "Not every day is a breakthrough. Today was wiring: tidying the jet harness so the bench rig is as clean as the plan."
 - "Two jets on the stand and a lot of wire to tame. Harness clean-up day on the X140."
+- "Our jet bench now has a proper control panel: timed runs, preflight checks and a big red ESTOP."
 
 **Media**
 - Photo: Both jets on the bench stand during today's wiring tidy-up (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-23/both-jets-on-the-bench-stand-during-today-s-wiring.jpg)
+- Screenshot: Jet bench dashboard, live view: both engines stopped and cold, ready for the next run (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-23/jet-bench-dashboard-live-view-both-engines-stopped.jpg)
+- Screenshot: Jet bench dashboard, new control tab: timed runs, preflight checks and engine settings in one place (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-23/jet-bench-dashboard-new-control-tab-timed-runs-pre.jpg)
+- Screenshot: Jet bench dashboard, control tab: load cell, engine log and a live activity feed (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-23/jet-bench-dashboard-control-tab-load-cell-engine-l.jpg)
 
 ---
 
