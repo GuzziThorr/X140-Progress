@@ -13,6 +13,20 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 23 Nov 2026
+
+**Milestones**
+- Bench day: tidying the wiring and cleaning up the harness that connects the jets to the flight computer, with both jets set up on the test stand.
+
+**Tweet hooks**
+- "Not every day is a breakthrough. Today was wiring: tidying the jet harness so the bench rig is as clean as the plan."
+- "Two jets on the stand and a lot of wire to tame. Harness clean-up day on the X140."
+
+**Media**
+- Photo: Both jets on the bench stand during today's wiring tidy-up (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-23/both-jets-on-the-bench-stand-during-today-s-wiring.jpg)
+
+---
+
 ## 22 Nov 2026
 
 **Milestones**
