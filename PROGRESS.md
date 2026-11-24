@@ -21,6 +21,8 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Website: a new project website with a design showcase page. The aircraft turns slowly on a studio turntable, rebuilt from the latest design and now showing the real nozzle shape.
 - Flight software: the hover rig's jet-start sequence now waits in hover-hold mode with the throttle down, so the lift rotors stay at idle while the jets spool up. A fix also makes lowering the stick in hover actually bring the rig down. Both were checked in the simulator.
 - In progress: a sim landing flown on the stick touched down gently and level, with the jets dropping back to idle on the ground (a sim result, not a real flight). The design tool also gained a controls panel that swings every surface and nozzle and checks for clashes.
+- Flight simulator: the X140 now takes off from and lands on a simple helipad in the sim, the same pad every time.
+- The sim stack: a custom build of the open-source ArduPilot autopilot (its tailsitter VTOL mode, plus our own mixer script for the jets, rotors, nozzles and control surfaces), running software-in-the-loop against a JSBSim flight-dynamics model of the aircraft and shown in FlightGear. The aircraft model, mass and aerodynamics all come from our in-house design tool, with the aero cross-checked by vortex-lattice solvers and CFD.
 
 **What's next**
 - Run both jets together on the test bench through a hover-style profile.
@@ -33,6 +35,11 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - "Small trim, big clearance: we shortened the nozzle covers so the swivelling nozzles never touch them, and saved a little weight too."
 - "Gentle touchdown in the sim: stick down, level landing, jets back to idle on the ground."
 - "Rotors wait, jets warm up: the hover rig's start sequence keeps the lift rotors at idle until both jets are ready."
+- "Cleared for take-off: the X140 on its helipad in the sim. Custom ArduPilot, JSBSim physics, FlightGear visuals."
+- "The autopilot that will fly the X140 is already flying it in the sim: a custom ArduPilot build against a physics model from our own design tool."
+
+**Media**
+- Screenshot: X140 concept C standing on the helipad in the flight simulator, rotors folded, ready for a vertical take-off (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-24/x140-concept-c-standing-on-the-helipad-in-the-flig.jpg)
 
 ---
 
