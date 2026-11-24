@@ -18,7 +18,7 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 **Milestones**
 - Thrust vectoring: the swivelling nozzle is now its own complete sub-assembly in CAD, with one pitch servo and one yaw servo per jet. A sweep through every pitch and yaw combination found no clashes. It is a review copy, waiting on final sign-off.
 - Aero covers: the streamlined cover around each nozzle now ends a little further forward, so the nozzle's rim stays clear of it even at full deflection. The aircraft got slightly lighter in the process.
-- Website: a new project website with a design showcase page. The aircraft turns slowly on a studio turntable, rebuilt from the latest design and now showing the real nozzle shape.
+- Website: the Darner website is live at https://darner.tech, with a design showcase page. The aircraft turns slowly on a studio turntable, rebuilt from the latest design and now showing the real nozzle shape.
 - Flight software: the hover rig's jet-start sequence now waits in hover-hold mode with the throttle down, so the lift rotors stay at idle while the jets spool up. A fix also makes lowering the stick in hover actually bring the rig down. Both were checked in the simulator.
 - In progress: a sim landing flown on the stick touched down gently and level, with the jets dropping back to idle on the ground (a sim result, not a real flight). The design tool also gained a controls panel that swings every surface and nozzle and checks for clashes.
 - Flight simulator: the X140 now takes off from and lands on a simple helipad in the sim, the same pad every time.
@@ -36,7 +36,7 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - "New legs for the X140: four of them, folding up into the wing in cruise, each one carrying the panel that closes the wing behind it."
 - "We threw out the stock transition and wrote our own: hover to wing flight and back, the way our earlier aircraft did it."
 - "Four servos, two nozzles, every pitch and yaw combination swept in CAD: zero clashes."
-- "The X140 has a home online: a new design showcase with the aircraft on a slow studio turntable."
+- "darner.tech is live. Come and see the X140 turning on its studio turntable: https://darner.tech"
 - "Small trim, big clearance: we shortened the nozzle covers so the swivelling nozzles never touch them, and saved a little weight too."
 - "Gentle touchdown in the sim: stick down, level landing, jets back to idle on the ground."
 - "Rotors wait, jets warm up: the hover rig's start sequence keeps the lift rotors at idle until both jets are ready."
