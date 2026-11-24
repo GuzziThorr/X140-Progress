@@ -23,6 +23,9 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - In progress: a sim landing flown on the stick touched down gently and level, with the jets dropping back to idle on the ground (a sim result, not a real flight). The design tool also gained a controls panel that swings every surface and nozzle and checks for clashes.
 - Flight simulator: the X140 now takes off from and lands on a simple helipad in the sim, the same pad every time.
 - The sim stack: a custom build of the open-source ArduPilot autopilot (its tailsitter VTOL mode, plus our own mixer script for the jets, rotors, nozzles and control surfaces), running software-in-the-loop against a JSBSim flight-dynamics model of the aircraft and shown in FlightGear. The aircraft model, mass and aerodynamics all come from our in-house design tool, with the aero cross-checked by vortex-lattice solvers and CFD.
+- Flight simulation, transitions: we replaced the autopilot's built-in tailsitter transition with our own on-board transition script, modelled on our earlier aircraft. The climb-out from hover to wing flight now flies cleanly in the sim.
+- Flight simulation, approach: the landing approach now slows down level on the wing, spins the rotors back up before the flare, then pitches up and hands over to hover above the pad. Still being tuned in the sim (sim results, not real flights).
+- New landing legs: four folding legs, like the hover rig's, replace the old three. In wing flight they fold back like a scissor jack and tuck in behind the wing for less drag. Before landing a small worm drive opens them, and one damper per side soaks up the touchdown. They're placed to stay clear of the jet exhaust.
 
 **What's next**
 - Run both jets together on the test bench through a hover-style profile.
@@ -30,6 +33,8 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Sign off the vectoring nozzle and fit it into the main CAD assembly.
 
 **Tweet hooks**
+- "New legs for the X140: four of them, folding back like a scissor jack to hide behind the wing in cruise."
+- "We threw out the stock transition and wrote our own: hover to wing flight and back, the way our earlier aircraft did it."
 - "Four servos, two nozzles, every pitch and yaw combination swept in CAD: zero clashes."
 - "The X140 has a home online: a new design showcase with the aircraft on a slow studio turntable."
 - "Small trim, big clearance: we shortened the nozzle covers so the swivelling nozzles never touch them, and saved a little weight too."
