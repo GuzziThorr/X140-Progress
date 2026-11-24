@@ -13,6 +13,32 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 25 Nov 2026
+
+**Milestones**
+- Design audit: a full review of the aircraft design led to a round of fixes. The frame structure is now counted properly in the weight estimate, the X-shaped tail panels grew a little and lean out further for more stability, and the wing tips got a thicker section so the tips keep flying after the inner wing near the stall, which keeps the ailerons working.
+- Cruise trim: the wing gained a gentle reflex at its trailing edge and the electronics moved further back, so the aircraft trims cleanly in fast wing flight.
+- Aerodynamics: the aero solver calibration was refined, and the stall behaviour now flows straight from the design tool into the flight model the simulator uses.
+- Lift rotors: the rotor power in the flight model now comes from our own rotor bench measurements instead of estimates.
+- Thrust vectoring: the hardware for the swivelling nozzles has been ordered. The CAD now matches it exactly: stainless steel pushrods, a stainless sheet nozzle that opens slightly at its exit to pull in cooling air, and every screw and washer placed. A sweep through every pitch and yaw position found zero clashes. We also designed the tooling to form the nozzles in the workshop.
+- Engine test bench: the twin-jet test bench can now be driven from the same laptop dashboard we use for flight.
+- Flight simulation: the X140 is now landing cleanly in the sim through the full approach, flare and hand-over to hover, including in a steady headwind (sim results, not real flights).
+- Website: darner.tech has a refreshed model in a carbon finish, and its spec sheet is updated from the latest aero solve, with endurance and range estimated for cruising on a single jet.
+
+**What's next**
+- Fly tailwind and crosswind landings in the sim.
+- Build and fit the vectoring nozzles once the hardware arrives.
+- Run both jets together on the test bench through a hover-style profile.
+
+**Tweet hooks**
+- "Parts are on order: the X140's swivelling jet nozzles are going from CAD to metal."
+- "Landing in the wind: the X140 flew a clean sim approach into a steady headwind and set down on the pad."
+- "A full design audit, a round of fixes: bigger tail, smarter wing tips, and a cleaner trim for fast cruise."
+- "Real numbers in, guesses out: the lift rotors in our flight model now run on our own bench data."
+- "Fresh carbon look on darner.tech, plus updated estimates for endurance and range on a single jet: https://darner.tech"
+
+---
+
 ## 24 Nov 2026
 
 **Milestones**
