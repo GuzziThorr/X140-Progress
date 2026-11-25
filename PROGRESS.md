@@ -22,7 +22,7 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - In progress, CFD: we've set up our own CFD workflow for the X140, building each simulation straight from the design tool's model, rotors and jet plumes included.
 - In progress, flight computer: the on-board flight script has grown as the transitions got smarter, so the flight-computer setup now sizes its script memory to fit automatically.
 - CFD: the CFD campaign on the X140 has started. Dozens of cases are queued, each with over a million cells, running around the clock on our own workstation in open-source OpenFOAM. The cases the flight controller needs most go first.
-- CFD, first result: a clean aircraft at low speed and a high angle of attack. It shows the inner wing has already stalled there, which is exactly what the flight simulator needed to know for the pull-up before landing. These are early, coarse-mesh runs for mapping the flight envelope, not final performance numbers.
+- CFD, first run: the first CFD run exposed a model-pose error (the landing-leg slot covers had been left open). It has been fixed and the case is re-running, so there is no result to quote yet.
 
 **What's next**
 - Start printing the hover rig's first parts.
@@ -30,16 +30,12 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Fly the redesigned take-off and landing transitions in the sim.
 
 **Tweet hooks**
-- "First CFD result on the X140 is in. At a high angle of attack the inner wing lets go first, and now our flight sim knows it."
+- "First CFD run, first catch: the model had its landing-leg covers open. Fixed and re-running. Checking the setup is part of the job."
 - "Dozens of CFD cases queued, a million-plus cells each, running day and night on our own workstation."
 - "More lift, more payload: the X140's take-off weight limit just went up, with all engines working together."
 - "Softer landings: the X140's folding legs got re-braced and longer-travel shock absorbers."
 - "From CAD to the print bed: the hover rig's first 3D print plates are laid out and checked."
 - "Our own CFD pipeline for the X140, built straight from the design model, rotors and jet plumes included."
-
-**Media**
-- CFD image: First CFD result on the X140: surface pressure over the upper side at low speed and a high angle of attack. Blue is strong suction, red is high pressure (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/first-cfd-result-on-the-x140-surface-pressure-over.jpg)
-- CFD image: CFD slice through the inner wing at a high angle of attack: the dark streak is slow, separated air trailing off a stalled wing (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/cfd-slice-through-the-inner-wing-at-a-high-angle-o.jpg)
 
 ---
 
