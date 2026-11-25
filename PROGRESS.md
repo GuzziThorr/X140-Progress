@@ -36,11 +36,15 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 **Tweet hooks**
 - "Lose a jet in the hover? In the sim the X140 sets down on the other one, gently and level."
 - "Finalising the hover rig: the frame that will lift our real jets and flight computer before the X140 ever flies."
+- "Meet the hover rig: four legs, two jets, two lift rotors and the flight computer on top. Next stop, the workshop."
 - "Parts are on order: the X140's swivelling jet nozzles are going from CAD to metal."
 - "Landing in the wind: the X140 flew a clean sim approach into a steady headwind and set down on the pad."
 - "A full design audit, a round of fixes: bigger tail, smarter wing tips, and a cleaner trim for fast cruise."
 - "Real numbers in, guesses out: the lift rotors in our flight model now run on our own bench data."
 - "Fresh carbon look on darner.tech, plus updated estimates for endurance and range on a single jet: https://darner.tech"
+
+**Media**
+- Render: The X140 hover test rig we're about to build, standing on its four legs: twin jets in the middle, lift rotors on the arms, and the flight computer up top (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-25/the-x140-hover-test-rig-we-re-about-to-build-stand.jpg)
 
 ---
 
