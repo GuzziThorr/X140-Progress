@@ -13,6 +13,28 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 26 Nov 2026
+
+**Milestones**
+- More payload: the X140's maximum take-off weight has been raised. It is now set by all engines working together, which frees up room for a useful payload with a full fuel load. Our jet-loss rules cover the heavier case: lose a jet during take-off and it lands straight away; lose one in wing flight and it cruises home on the other.
+- Landing gear: the folding legs were re-tuned for the heavier take-off weight. The scissor arms that brace each leg now attach further down, which spreads the landing load better, and the shock absorbers get a longer stroke for softer touchdowns. The gear still folds away cleanly behind its covers.
+- In progress, 3D printing: the hover rig's printed parts now have their own print pipeline, with every part laid out and checked on the print bed. The first three print plates are ready for review.
+- In progress, CFD: we've set up our own CFD workflow for the X140, building each simulation straight from the design tool's model, rotors and jet plumes included.
+- In progress, flight computer: the on-board flight script has grown as the transitions got smarter, so the flight-computer setup now sizes its script memory to fit automatically.
+
+**What's next**
+- Start printing the hover rig's first parts.
+- Run the first CFD solves on the X140 and compare them with our design tool.
+- Fly the redesigned take-off and landing transitions in the sim.
+
+**Tweet hooks**
+- "More lift, more payload: the X140's take-off weight limit just went up, with all engines working together."
+- "Softer landings: the X140's folding legs got re-braced and longer-travel shock absorbers."
+- "From CAD to the print bed: the hover rig's first 3D print plates are laid out and checked."
+- "Our own CFD pipeline for the X140, built straight from the design model, rotors and jet plumes included."
+
+---
+
 ## 25 Nov 2026
 
 **Milestones**
