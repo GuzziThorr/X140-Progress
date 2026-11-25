@@ -28,6 +28,13 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Flight simulation, jet failure in the hover: we cut one jet in a heavy hover close to the ground. The X140 came down on the other jet and the rotors and touched down gently and nearly level. A follow-up glitch on the pad, where the rotors spun back up after touchdown, was found and fixed (sim results, not real flights).
 - Hover rig: we've started finalising the hover test rig we're going to build, the stand-in that will fly the real jets, rotors and flight computer before the full aircraft does.
 
+**About the hover rig**
+- What it is: a stand-in for the X140 that flies the real hardware before the full aircraft does. It carries the same two jets with their swivelling nozzles, the same lift rotors and motors, the same flight computer running the same software we fly in the simulator, and the same wiring.
+- Why build it: so we can prove the hover on real engines, safely and step by step: first hovering and moving steadily, then spins and landings, then losing a jet on purpose. Only once that's solid do we add the wings and try transitions to wing flight.
+- How it's built: a single carbon-fibre spine runs up the middle as the backbone, with 3D-printed carbon-filled joints. One arm each side carries a lift rotor, and two legs per arm reach down to a wide, stable stance, each ending in a gas-strut shock absorber on a round foot. The jets sit low in the middle on printed mounts, the fuel bottle and batteries sit where the aircraft carries its own, and the flight computer rides on top.
+- Built to behave like the aircraft: its weight and balance are matched to the X140's, so what the flight computer learns on the rig carries straight over.
+- How it's flown: from a laptop ground station over a long-range telemetry radio. If a jet fails, the rig is programmed to land right where it is.
+
 **What's next**
 - Fly tailwind and crosswind landings in the sim.
 - Build and fit the vectoring nozzles once the hardware arrives.
