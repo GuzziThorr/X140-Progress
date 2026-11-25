@@ -29,9 +29,11 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Hover rig: we've started finalising the hover test rig we're going to build, the stand-in that will fly the real jets, rotors and flight computer before the full aircraft does.
 
 **About the hover rig**
+- What we're trying to achieve: prove that the X140 can lift off, hover, move around and land on real jets and rotors, controlled by our own flight software, and that it stays safe when something goes wrong, like losing a jet. Every real-world lesson goes back into the full aircraft before it flies.
 - What it is: a stand-in for the X140 that flies the real hardware before the full aircraft does. It carries the same two jets with their swivelling nozzles, the same lift rotors and motors, the same flight computer running the same software we fly in the simulator, and the same wiring.
 - Why build it: so we can prove the hover on real engines, safely and step by step: first hovering and moving steadily, then spins and landings, then losing a jet on purpose. Only once that's solid do we add the wings and try transitions to wing flight.
 - How it's built: a single carbon-fibre spine runs up the middle as the backbone, with 3D-printed carbon-filled joints. One arm each side carries a lift rotor, and two legs per arm reach down to a wide, stable stance, each ending in a gas-strut shock absorber on a round foot. The jets sit low in the middle on printed mounts, the fuel bottle and batteries sit where the aircraft carries its own, and the flight computer rides on top.
+- Centre of mass: the rig is balanced so its centre of mass sits right on the line where the jets and rotors push, within a few millimetres, with the fuel tank full and with it empty. Get that wrong and the flight computer spends its effort holding the rig level instead of flying it. We fix balance in the design itself, by where the fuel, batteries and electronics sit, never by asking the software to fight an off-centre load.
 - Built to behave like the aircraft: its weight and balance are matched to the X140's, so what the flight computer learns on the rig carries straight over.
 - How it's flown: from a laptop ground station over a long-range telemetry radio. If a jet fails, the rig is programmed to land right where it is.
 
