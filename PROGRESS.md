@@ -24,6 +24,9 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Engine test bench: the twin-jet test bench can now be driven from the same laptop dashboard we use for flight.
 - Flight simulation: the X140 is now landing cleanly in the sim through the full approach, flare and hand-over to hover, including in a steady headwind (sim results, not real flights).
 - Website: darner.tech has a refreshed model in a carbon finish, and its spec sheet is updated from the latest aero solve, with endurance and range estimated for cruising on a single jet.
+- Flight simulation, approaches and landings: more approach and landing runs in the sim, working toward lower, quicker transitions and approaches.
+- Flight simulation, jet failure in the hover: we cut one jet in a heavy hover close to the ground. The X140 came down on the other jet and the rotors and touched down gently and nearly level. A follow-up glitch on the pad, where the rotors spun back up after touchdown, was found and fixed (sim results, not real flights).
+- Hover rig: we've started finalising the hover test rig we're going to build, the stand-in that will fly the real jets, rotors and flight computer before the full aircraft does.
 
 **What's next**
 - Fly tailwind and crosswind landings in the sim.
@@ -31,6 +34,8 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Run both jets together on the test bench through a hover-style profile.
 
 **Tweet hooks**
+- "Lose a jet in the hover? In the sim the X140 sets down on the other one, gently and level."
+- "Finalising the hover rig: the frame that will lift our real jets and flight computer before the X140 ever flies."
 - "Parts are on order: the X140's swivelling jet nozzles are going from CAD to metal."
 - "Landing in the wind: the X140 flew a clean sim approach into a steady headwind and set down on the pad."
 - "A full design audit, a round of fixes: bigger tail, smarter wing tips, and a cleaner trim for fast cruise."
