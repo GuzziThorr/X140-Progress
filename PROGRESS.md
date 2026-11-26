@@ -34,6 +34,7 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - Fly the new landing law in wind and at heavier weights in the sim.
 
 **Tweet hooks**
+- "Up close with the hover rig: jets in printed mounts, nozzle servos tucked ahead of the heat, rotors on cone mounts. All of it is printing now."
 - "The hover rig is printing. Every part was checked for strength, and for whether you can actually get a tool on each bolt."
 - "New landing logic, first sim flight: the X140 touched down a hand's width from the centre of the pad."
 - "Our model caught two landing faults before the sim flight did. That's the point of having one."
@@ -43,6 +44,12 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - "Softer landings: the X140's folding legs got re-braced and longer-travel shock absorbers."
 - "From CAD to the print bed: the hover rig's first 3D print plates are laid out and checked."
 - "Our own CFD pipeline for the X140, built straight from the design model, rotors and jet plumes included."
+
+**Media**
+- Render: Hover rig close-up: one of the jets bolted into its 3D-printed mount (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/hover-rig-close-up-one-of-the-jets-bolted-into-its.jpg)
+- Render: Hover rig close-up: a lift rotor on its cone-shaped printed motor mount, with the folding blades (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/hover-rig-close-up-a-lift-rotor-on-its-cone-shaped.jpg)
+- Render: Hover rig close-up: the servos that steer the swivelling jet nozzles, seated in ribbed printed brackets ahead of the heat (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/hover-rig-close-up-the-servos-that-steer-the-swive.jpg)
+- Render: Hover rig close-up: the spine carrying the fuel bottle, flight computer and wiring (https://raw.githubusercontent.com/GuzziThorr/X140-Progress/main/media/2026-11-26/hover-rig-close-up-the-spine-carrying-the-fuel-bot.jpg)
 
 ---
 
