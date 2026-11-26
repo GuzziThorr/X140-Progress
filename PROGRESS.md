@@ -13,6 +13,29 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 27 Nov 2026
+
+**Milestones**
+- Air data nose: the X140 is getting a "smart nose" that measures its own airspeed and angle to the airflow from a set of small flush pressure ports, with no pitot tube sticking out. A normal pitot reads poorly when the aircraft is pitched up steeply, which is exactly how it flies through its transitions between hover and wing flight. The firmware that reads the sensors, solves for the airflow and sends it to the flight computer is written, along with a bench test that checks how much the sensors drift against each other before the nose is built.
+- In progress, air data: the solver is being tuned for the X140's slender nose shape, and the port layout will be fitted to our CFD results.
+- Thrust vectoring: the hover rig will fly its jets with their standard exhaust for now; the lobed exhaust mixer becomes a later swap. The nozzle servos now bolt in with stronger screws into threaded inserts, and a full sweep of the nozzle's motion against the rig frame found zero clashes.
+- Flight simulation, landings: more sim landings in calm air and in gusts with the new landing logic, and the descent onto the pad was reshaped so the last metres are slower and softer (sim results, not real flights).
+- Flight simulation, a catch on the pad: in one calm sim landing the X140 touched down softly but then tipped over on the pad. The cause was found: after touchdown the flight computer kept steering the jet nozzles, and on the ground that pushed the whole aircraft along. Now, once it's down, the nozzles centre and the jets drop straight to idle (a sim result, not a real flight).
+
+**What's next**
+- Fly the on-the-pad fix in the sim, in calm air and in gusts.
+- Build the air data firmware for real hardware and run the sensor drift bench test.
+- Keep printing and fitting the hover rig's parts.
+
+**Tweet hooks**
+- "No pitot tube: the X140 will read its airspeed from tiny flush pressure ports in its nose."
+- "A pitot gets confused when you fly nose-high. Our transitions are all nose-high. So we're building a smarter nose."
+- "Soft touchdown, then it tipped over on the pad. In the sim, thankfully. Cause found, fix in: the nozzles now centre the moment it's down."
+- "Simple first: the hover rig flies its jets with standard exhausts. The exhaust mixer comes later."
+- "Every position of the swivelling nozzle checked against the rig frame: zero clashes."
+
+---
+
 ## 26 Nov 2026
 
 **Milestones**
