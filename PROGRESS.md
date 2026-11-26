@@ -23,13 +23,20 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 - In progress, flight computer: the on-board flight script has grown as the transitions got smarter, so the flight-computer setup now sizes its script memory to fit automatically.
 - CFD: the CFD campaign on the X140 has started. Dozens of cases are queued, each with over a million cells, running around the clock on our own workstation in open-source OpenFOAM. The cases the flight controller needs most go first.
 - CFD, first run: the first CFD run exposed a model-pose error (the landing-leg slot covers had been left open). It has been fixed and the case is re-running, so there is no result to quote yet.
+- Flight simulation, new landing law: the redesigned landing logic flew for the first time in the sim. The X140 set down about a hand's width from the centre of the pad, and it kept a safe height through the pull-up into the hover instead of dipping toward the ground (a sim result, not a real flight). Two faults that would have spoiled the pull-up were caught by our model before the flight.
+- Airframe shape: a shallow dip along the top of the body's centreline was filled in for a cleaner upper surface, and the design was re-released with it.
+- Hover rig, checks: every 3D-printed part on the rig went through a strength check and an assembly check, to make sure each bolt can actually be reached with a tool. The jet mounts were also cleared against the full swing of the swivelling nozzles.
+- Hover rig, printing: the rig's parts are now printing.
 
 **What's next**
-- Start printing the hover rig's first parts.
+- Keep printing the hover rig's parts and start fitting them to the carbon tubes.
 - Work through the next CFD cases at steeper angles of attack, and compare the results with our design tool.
-- Fly the redesigned take-off and landing transitions in the sim.
+- Fly the new landing law in wind and at heavier weights in the sim.
 
 **Tweet hooks**
+- "The hover rig is printing. Every part was checked for strength, and for whether you can actually get a tool on each bolt."
+- "New landing logic, first sim flight: the X140 touched down a hand's width from the centre of the pad."
+- "Our model caught two landing faults before the sim flight did. That's the point of having one."
 - "First CFD run, first catch: the model had its landing-leg covers open. Fixed and re-running. Checking the setup is part of the job."
 - "Dozens of CFD cases queued, a million-plus cells each, running day and night on our own workstation."
 - "More lift, more payload: the X140's take-off weight limit just went up, with all engines working together."
