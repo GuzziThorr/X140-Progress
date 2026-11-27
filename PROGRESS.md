@@ -13,6 +13,30 @@ This file is updated once a day. Newest day first. Everything in it is safe to q
 
 ---
 
+## 28 Nov 2026
+
+**Milestones**
+- Hover rig design locked in: the rig now stands on four identical folding-style legs that share one printed knee part, carries two fuel bottles side by side, and has a battery mount made of two mirrored halves clamped round the backbone. The jet mounts were strengthened with through-bolts and thrust blocks, and the telemetry radio has its antenna in place. A new check walks the assembly order and confirms every bolt can be reached with a tool.
+- In progress, hover rig wiring: every wire on the rig is routed automatically around the frame. The latest pass re-routed the radio leads, tidied the battery bay, and moved the jet electronics on their shelf so no plug sits on top of another part.
+- Flight simulation, a big day for landings: more than twenty refinements to the landing logic were flown in the sim, in calm air and in gusts (sim results, not real flights). The braking curve into the hover now accounts for drag, which stopped a back-and-forth swing in calm air. The aircraft now holds over the pad while it settles sideways, and the last metres of descent wait for the lift rotors to catch up, for softer touchdowns.
+- Flight simulation, no more sliding: small slides across the pad at touchdown were cut to a fraction of what they were by smoothing how the flight computer steers in the final seconds (sim results).
+- Flight simulation, the on-the-pad fix flew: yesterday's fix for the tip-over after touchdown was flown in calm air and in gusts, with no tip-overs (sim results).
+- Flight simulation, crosswinds: a sideways swing just after the flare in a crosswind is now capped, so the X140 can't lean too far once the wing stops flying (in the sim, flights under way).
+
+**What's next**
+- Keep flying crosswind landings in the sim and shave more seconds off the hover at the end of each flight.
+- Finish the hover rig wiring pass and keep printing and fitting parts.
+- Keep the CFD cases running and feed the results into the flight tables.
+
+**Tweet hooks**
+- "Twenty-plus landing tweaks in one day, every one flown in the sim. Softer, straighter, less time hovering."
+- "Yesterday it tipped over on the pad in the sim. Today the fix flew in calm air and gusts: no tip-overs."
+- "Touchdown slides on the pad, cut to a fraction. Small details make a landing feel locked in."
+- "The hover rig design is locked: four identical legs, two fuel bottles side by side, and every bolt reachable with a tool."
+- "Every wire on the hover rig is routed automatically around the frame. No guessing at the bench."
+
+---
+
 ## 27 Nov 2026
 
 **Milestones**
